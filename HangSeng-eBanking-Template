@@ -1,8 +1,10 @@
 // Run this in console...By yourself after each refresh...
 
+// SETUP YOUR INFO...
 var __YOUR_TAX_ID__="00721831101";
 var __YOUR_DEBITACCT_CODE__ = "0"; // After you select from ui first time. Please copy value from: document.querySelector("input[id$=_DebitAcctList-value]").value
 
+// CODE STARTS...
 var step = 0;
 var stepFunc = [];
 stepFunc[0] = () => { 
