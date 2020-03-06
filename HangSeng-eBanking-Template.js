@@ -1,4 +1,6 @@
-// Run this in Google Chrome or Firefox console...by yourself after each refresh...
+// Usage:
+// 1. Fill the <SETUP YOUR INFO> section first
+// 2. Run this in Google Chrome or Firefox console...by yourself after each refresh...
 
 // <SETUP YOUR INFO>
 
