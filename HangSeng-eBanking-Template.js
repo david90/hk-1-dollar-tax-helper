@@ -1,6 +1,7 @@
 // Usage:
 // 1. Fill the <SETUP YOUR INFO> section first
-// 2. Run this in Google Chrome or Firefox console...by yourself after each refresh...
+// 2. Go to "PP支付平台"下的"繳付帳單"
+// 3. Run this in Google Chrome or Firefox console...by yourself after each refresh...
 
 // <SETUP YOUR INFO>
 
