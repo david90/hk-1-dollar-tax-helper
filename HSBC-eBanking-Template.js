@@ -1,6 +1,14 @@
+// Usage:
+// 1. Fill the <SETUP YOUR INFO> section first
+// 2. Run this in Google Chrome or Firefox console
+
+// <SETUP YOUR INFO>
+
 var __FROM_ACCOUNT__ = "0721-0831-1001-1111";
 var __FROM_ACCOUNT_EXTRA__ = ""; //Not required, except you choose e.g "港元往來", "澳元儲蓄"
 var __TAX_ACCOUNT__ = "00721831101"
+
+// </SETUP YOUR INFO>
 
 var paidAmount = 0;
 
