@@ -2,6 +2,7 @@
 // 1. Fill the <SETUP YOUR INFO> section first
 // 2. Go to "我的銀行" -> "轉帳"下的"繳交稅款"
 // 3. Run this in Google Chrome or Firefox (?) console
+// 4. If you want to stop, refresh the page
 
 // <SETUP YOUR INFO>
 
