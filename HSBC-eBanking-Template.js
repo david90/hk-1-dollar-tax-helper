@@ -89,6 +89,7 @@ function main() {
 				console.log("You paid $" + ++paidAmount);
 				
 				setTimeout(function() {
+					document.dispatchEvent(new Event("mousemove"));
 					main();
 				}, 6000);
 				
