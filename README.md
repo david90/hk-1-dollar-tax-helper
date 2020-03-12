@@ -38,4 +38,4 @@ You only want to pay 1 dollar tax per transaction
 1. 在頁面上按Ctrl+Shift+K
 
 ### IE
-1. 下載Chrome或Firefox, 然後參照上方教學
+1. 下載Chrome或Firefox，然後參照上方教學
