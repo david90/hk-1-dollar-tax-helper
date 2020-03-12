@@ -59,7 +59,7 @@ function main() {
 	 step++;
 	};
 	if (step >= stepFunc.length)
-		throw new Error("Step cannot be determined."); 
+		console.error("Step cannot be determined."); 
 	else 
 		stepFunc[step]();
 }
