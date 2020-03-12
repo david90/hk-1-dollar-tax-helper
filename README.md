@@ -9,7 +9,7 @@ You only want to pay 1 dollar tax per transaction
 
 然而，又不想自己戇鳩鳩手動撳$1。
 
-因此，這個Project的重點：
+因此，這個Project的重點：<br>
 **我寫嘅所有嘢你都睇到**<br>
 如果你驚我有鬼祟，你有技術力可以自己睇，你自己冇可以搵你有IT JavaScript知識嘅人幫你睇。
 
