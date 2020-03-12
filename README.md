@@ -4,7 +4,7 @@ You only want to pay 1 dollar tax per transaction
 ## 點解我要寫/點解你或者想用
 
 坊間都有好些自動交稅的程式。
-可是，因為它們是APP或EXR等不公開code的形式，<br>
+可是，因為它們是APP或EXE等不公開code的形式，<br>
 要用在自己的**E-Banking**畢竟會有**安全考慮**。
 
 然而，又不想自己戇鳩鳩手動撳$1。
