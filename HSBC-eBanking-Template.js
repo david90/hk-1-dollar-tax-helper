@@ -9,12 +9,12 @@
 var __FROM_ACCOUNT__ = "0721-0831-1001-1111";
 var __FROM_ACCOUNT_EXTRA__ = ""; //Not required, except you choose e.g "港元往來", "澳元儲蓄"
 var __TAX_ACCOUNT__ = "00721831101"
-var __MAX_AMOUNT__ = 50; // Setup maximum amount for loop, set this especially if you wish to limit your payment 
 
 // </SETUP YOUR INFO>
 
 // CODE STARTS...Do not modify scripts below
 var __AMOUNT_PER_PAYMENT__ = 1; 
+var __MAX_AMOUNT__ = 50; // Setup maximum amount for loop, set this especially if you wish to limit your payment 
 var paidAmount = 0;
 
 var __TAX_TYPE__ = "01";
