@@ -23,7 +23,7 @@ var StepControl = function() {
 	var selectPaymentStartPageFunc = 
 	()=> {
 		var checkPaymentStartPageFunc = ()=> {
-			if (utag.data.page_url.endsWith("move-money/new-transaction/1/configure/")) {
+			if (utag.data.page_url.endsWith("move-money/new-transaction/1/configure/") || utag.data.page_url.endsWith("/move-money/new-payment/start")) {
 				var loaderNode = document.querySelector('div[id="_loaderNode"]');
 				if (loaderNode) {
 					return loaderNode.style.opacity == 0 && loaderNode.style.display == "none";
@@ -152,7 +152,7 @@ var StepControl = function() {
 					console.error("Step cannot be determined."); 
 				else 
 					stepFunc[step]();
-			}, 100);
+			}, 500);
 		},		
 	};
 }();
