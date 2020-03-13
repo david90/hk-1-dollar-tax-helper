@@ -35,12 +35,10 @@ var StepControl = function() {
 		if (checkPaymentStartPageFunc()) {
 			var isStep_1 = true;
 			var s = document.querySelector('[data-dojo-attach-point="_fromAccountSpan"]').innerText;
-			if (s.includes(__FROM_ACCOUNT__) && s.includes(__FROM_ACCOUNT_EXTRA__))
-				isStep_1 &= true;
+			isStep_1 &= (s.includes(__FROM_ACCOUNT__) && s.includes(__FROM_ACCOUNT_EXTRA__));
 			
 			s = document.querySelector('div[id$="1_newDomesticPayeeAccountType"] > [data-dojo-attach-point="_BillTypeselected"]').innerText;
-			if (s.startsWith(__TAX_TYPE__))
-				isStep_1 &= true;
+			isStep_1 &= s.startsWith(__TAX_TYPE__);
 			
 			return isStep_1 ? 1 : 0;
 		}
