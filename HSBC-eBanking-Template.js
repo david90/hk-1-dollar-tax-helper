@@ -9,6 +9,7 @@
 var __FROM_ACCOUNT__ = "0721-0831-1001-1111";
 var __FROM_ACCOUNT_EXTRA__ = ""; //Not required, except you choose e.g "港元往來", "澳元儲蓄"
 var __TAX_ACCOUNT__ = "00721831101"
+var __MAX_AMOUNT__ = 50; // Setup maximum amount for loop, set this especially if you wish to limit your payment 
 
 // </SETUP YOUR INFO>
 
@@ -144,7 +145,12 @@ var StepControl = function() {
 	
 	return {
 		start: ()=> {
-			setInterval(()=> {
+			var myInterval = setInterval(()=> {
+				if (paidAmount == __MAX_AMOUNT__) {
+					clearInterval(myInterval);
+					return;
+				}
+
 				var step = 0;
 				for (var f of stepFuncSelectors) {
 					if (f()) { break; } 
