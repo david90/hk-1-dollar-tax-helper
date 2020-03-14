@@ -14,7 +14,7 @@ var __TAX_ACCOUNT__ = "00721831101"
 
 // CODE STARTS...Do not modify scripts below
 var __AMOUNT_PER_PAYMENT__ = 1; 
-var __MAX_AMOUNT__ = 50; // Setup maximum amount for loop, set this especially if you wish to limit your payment 
+var __MAX_AMOUNT__ = __AMOUNT_PER_PAYMENT__ * 50; // Setup maximum amount for loop, set this especially if you wish to limit your payment 
 var paidAmount = 0;
 
 var __TAX_TYPE__ = "01";
