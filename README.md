@@ -26,7 +26,7 @@ You only want to pay 1 dollar tax per transaction
 4. 在瀏覽器的Console/主控台，複製貼上在你電腦的記事本經修改的HSBC-eBanking-Template.js內容，然後按Enter
 5. 想停止代碼運行，只需「重新整理」頁面
 
-### 恆生
+### 恆生 (建議用Chrome)
 1. 登入E-Banking，在左方選單選擇「P.P.支付平台」下面的「帳單及繳費」，再選擇「繳付帳單」，去到交稅頁面
 2. 打開瀏覽器的Console/主控台 *參照下方「如何打開Console/主控台」標題
 3. 如果你並非第1次使用，跳至第5步。<br><br>
